@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(#a2d2ff, #efb0c9);
+    color: #ffffff;
+   
+  
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+h1, h2, h4, p, h3{
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-age, #bday-date {
+    background: #efb0c9;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+#bday-age{
+    margin-bottom: 10px;
+}
+
+#myfriend{
+    width: 150px;
+    border-radius: 50%;
+    border: 8px solid #efb0c9;
+    margin-bottom: 30px;
+
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-section-last{
+    margin-bottom: 100px;
+}
+.gift-image{
+    width: 500px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(Images_port/gift-cover.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#happy-gif:hover{
+    background-image: url(Images_port/happy-gif.webp.gif);
+    
+}
+#hot:hover{
+    background-image: url(Images_port/Sexy\ American\ Flag\ GIF\ by\ Hot\ Country\ Knights.gif);
+    
+}
+
+#description:hover{
+    background-image: url(Images_port/Excited\ Beard\ GIF.gif);
+    
+}
+
+#badass:hover{
+    background-image: url(Images_port/Of\ The\ Month\ Badass\ GIF\ by\ tagrestaurantgroup.gif);
+    
+}
+
+#cheers:hover{
+    background-image: url(Images_port/Happy\ New\ Year\ Party\ GIF\ by\ Jackson-Triggs.gif);
+}
+.gift-title{
+    margin-top: 0;
+}
